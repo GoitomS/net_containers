@@ -1,0 +1,94 @@
+:root {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+h1 {
+    color: white;
+    font-size: 3em;
+}
+
+p {
+    color: white;
+    font-size: 20px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    height: 600px;
+}
+
+.row1,
+.row2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    height: 600px;
+}
+
+.col {
+    position: relative;
+    margin: 50px;
+    width: 30%;
+    border-top: 2px;
+
+
+}
+
+img {
+    width: 500px;
+}
+
+.row1 img {
+    background: url(https://thumbs.gfycat.com/WellmadeMessyDowitcher-size_restricted.gif);
+    background-position: center;
+    background-size: 80%;
+    background-repeat: no-repeat;
+
+}
+
+.row2 img {
+    background: url(https://cdn.acidcow.com/pics/20120508/move_24.gif);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position-y: 40px;
+    background-position-x: 55px;
+
+}
+
+button {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 320px;
+    border-radius: 10px;
+    padding: 5px;
+    border-color: rgb(255, 255, 255);
+    background-color: black;
+    color: white;
+    margin-left: 90px;
+}
+
+button img {
+    width: 40px;
+    margin-left: 20px
+}
+
+button h3 {
+    padding: 5px;
+}
+
+button p {
+    color: blue;
+    font-size: 14px;
+    position: relative;
+    margin: 0px;
+}
